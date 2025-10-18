@@ -37,7 +37,7 @@ const defaultOptions: GraphOptions = {
     fontSize: 0.6,
     opacityScale: 1,
     showTags: true,
-    removeTags: [],
+    removeTags: ["ignore"],
     focusOnHover: false,
   },
   globalGraph: {
