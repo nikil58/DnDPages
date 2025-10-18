@@ -2,7 +2,7 @@
 tags:
   - Artifacts
 ---
-Письмо от брата [[DnDPages/source/content/Tyranny of Dragons/Characters/Айвор|Айвора]], которое тот получил во время простоя: 
+Письмо от брата [[Aivor|Айвора]], которое тот получил во время простоя: 
 
 
 ---
