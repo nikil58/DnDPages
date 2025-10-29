@@ -95,6 +95,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       v,
     ]),
   )
+  
+  for (const [slug, details] of data.entries()) {
+  // если запись содержит любой тег из removeTags — исключаем
+  if (details.tags?.some(tag => removeTags.includes(tag))) {
+    data.delete(slug)
+  }
+}
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
